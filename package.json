@@ -13,6 +13,12 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "standard-version": {
+    "skip": {
+      "commit": true,
+      "tag": true
+    }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
